@@ -7,5 +7,5 @@ def sort_array_desc(desc)
 end
 
 def sort_array_char_count(count)
-  
+  count.sort {|left, right| left.length <=> right.length}
 end
