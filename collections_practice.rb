@@ -15,12 +15,3 @@ def swap_elements(strings)
   return strings
 end
 
-def swap_elements_from_to(array, index, destination_index)
-  array[index], array[destination_index] = array[destination_index], array[index]
-  return array
-end
-
-def reverse_array(array)
-  new_array = integers.reverse
-  new_array
-end
